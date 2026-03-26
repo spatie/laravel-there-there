@@ -54,6 +54,16 @@ it('can create a boolean item', function () {
     ]);
 });
 
+it('can create a url item', function () {
+    $item = SidebarItem::url('Dashboard', 'https://example.com/admin');
+
+    expect($item->toArray())->toBe([
+        'name' => 'Dashboard',
+        'value' => 'https://example.com/admin',
+        'type' => 'url',
+    ]);
+});
+
 it('can create an item with the constructor', function () {
     $item = new SidebarItem('Custom', 'value', SidebarItemType::Markdown);
 

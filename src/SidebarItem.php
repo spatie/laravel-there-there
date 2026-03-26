@@ -37,6 +37,11 @@ class SidebarItem
         return new self($name, $value, SidebarItemType::Boolean);
     }
 
+    public static function url(string $name, string $value): self
+    {
+        return new self($name, $value, SidebarItemType::Url);
+    }
+
     /** @return array{name: string, value: mixed, type: string} */
     public function toArray(): array
     {

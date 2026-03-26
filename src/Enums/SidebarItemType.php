@@ -8,4 +8,5 @@ enum SidebarItemType: string
     case Markdown = 'markdown';
     case Date = 'date';
     case Boolean = 'boolean';
+    case Url = 'url';
 }
