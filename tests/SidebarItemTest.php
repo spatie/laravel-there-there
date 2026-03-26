@@ -1,8 +1,8 @@
 <?php
 
 use Carbon\Carbon;
+use Spatie\ThereThere\Enums\SidebarItemType;
 use Spatie\ThereThere\SidebarItem;
-use Spatie\ThereThere\SidebarItemType;
 
 it('can create a numeric item', function () {
     $item = SidebarItem::numeric('Total orders', 42);

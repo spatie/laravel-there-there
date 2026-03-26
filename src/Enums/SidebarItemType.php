@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\ThereThere;
+namespace Spatie\ThereThere\Enums;
 
 enum SidebarItemType: string
 {

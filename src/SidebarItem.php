@@ -3,6 +3,7 @@
 namespace Spatie\ThereThere;
 
 use DateTimeInterface;
+use Spatie\ThereThere\Enums\SidebarItemType;
 
 class SidebarItem
 {

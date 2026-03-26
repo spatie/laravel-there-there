@@ -13,7 +13,9 @@ class ThereThereController
     {
         $items = $thereThere->sidebarItems($request);
 
-        $data = array_map(fn (SidebarItem $item) => $item->toArray(), $items);
+        $data = collect($items)
+            ->map(fn (SidebarItem $item) => $item->toArray())
+            ->all();
 
         return response()->json(['data' => $data]);
     }
