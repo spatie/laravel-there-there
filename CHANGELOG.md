@@ -2,6 +2,10 @@
 
 All notable changes to `:package_name` will be documented in this file.
 
+## 1.0.0 - 2026-04-01
+
+**Full Changelog**: https://github.com/spatie/laravel-there-there/compare/0.0.1...1.0.0
+
 ## 0.0.1 - 2026-03-26
 
 ### What's Changed
